@@ -1,0 +1,13 @@
+.Button {
+	flex: 1;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+	background-color: grey;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.Button:hover {
+	background-color: #000000;
+}

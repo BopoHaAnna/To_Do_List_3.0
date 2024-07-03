@@ -1,0 +1,47 @@
+/*app.module.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.todoContainer {
+	position: relative; /* Для псевдоэлементов */
+	background-color: #ffffff;
+	width: 500px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.todoContainer::before,
+.todoContainer::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 2px solid #000000; /* Черная рамка */
+	border-radius: 5px; /* Закругленные углы */
+	pointer-events: none; /* Чтобы не мешало взаимодействию с содержимым */
+}
+
+.todoContainer::after {
+	top: -4px;
+	left: -4px;
+	right: -4px;
+	bottom: -4px;
+	border: 2px solid #000000; /* Вторая черная рамка */
+}
+
+.todoTitle {
+	font-family: 'Indie Flower';
+	text-align: center;
+	font-size: 48px;
+	margin: 0 0 20px;
+}
+
+.todoList {
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #f9f9f9;
+	border-radius: 3px;
+}

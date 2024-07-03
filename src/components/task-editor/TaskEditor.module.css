@@ -1,0 +1,25 @@
+.taskContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.taskContainer input[type='text'] {
+	flex: 1;
+	padding: 10px;
+	font-size: 16px;
+	border: none; /* Убираем стандартную рамку */
+	outline: none; /* Убираем стандартный outline */
+	background-color: #f9f9f9; /* Фоновый цвет */
+	color: #666666; /* Серый цвет текста */
+	border-radius: 3px; /* Закругленные углы */
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятия */
+}
+
+.buttonContainer {
+	display: flex;
+	gap: 5px;
+}
+.taskTitle {
+	flex: 1;
+	word-break: break-all;
+}

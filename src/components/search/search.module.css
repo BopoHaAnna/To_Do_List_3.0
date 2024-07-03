@@ -1,0 +1,10 @@
+.inputSearch {
+	padding: 5px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	border: 2px solid #cccccc;
+	border-radius: 3px;
+	outline: none; /* Убираем стандартный outline */
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	width: 150px; /* Пример ширины поля */
+}

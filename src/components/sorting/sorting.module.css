@@ -1,0 +1,17 @@
+.sortButton {
+	background-color: grey;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	/* font-size: 8px; */
+}
+
+.sortButton:hover {
+	background-color: #333333;
+}
+.sortButton.sortActive {
+	background-color: #000000; /* Черный цвет при активном состоянии (sortMode=true) */
+}
